@@ -107,7 +107,7 @@
     <comp lib="8" loc="(165,525)" name="Text">
       <a name="text" val="J"/>
     </comp>
-    <comp lib="8" loc="(166,575)" name="Text">
+    <comp lib="8" loc="(165,575)" name="Text">
       <a name="text" val="K"/>
     </comp>
     <comp lib="8" loc="(170,100)" name="Text">
@@ -136,7 +136,7 @@
       <a name="font" val="SansSerif bold 12"/>
       <a name="text" val="Q: stored bit of flipflop (0 or 1)"/>
     </comp>
-    <comp lib="8" loc="(264,447)" name="Text">
+    <comp lib="8" loc="(260,445)" name="Text">
       <a name="font" val="SansSerif bold 12"/>
       <a name="text" val="Nobody requests to turn on or off Q?"/>
     </comp>
@@ -156,7 +156,7 @@
       <a name="font" val="SansSerif bold 12"/>
       <a name="text" val="CP (Clock Pulse): request to update flipflop state"/>
     </comp>
-    <comp lib="8" loc="(320,120)" name="Text">
+    <comp lib="8" loc="(317,121)" name="Text">
       <a name="font" val="SansSerif bold 12"/>
       <a name="text" val="J (Jump/Set): request to turn on Q on clock pulse "/>
     </comp>
@@ -208,19 +208,19 @@
     <comp lib="8" loc="(590,675)" name="Text">
       <a name="text" val="CP"/>
     </comp>
-    <comp lib="8" loc="(679,449)" name="Text">
+    <comp lib="8" loc="(675,445)" name="Text">
       <a name="font" val="SansSerif bold 12"/>
       <a name="text" val="There is J requested to turn on Q?"/>
+    </comp>
+    <comp lib="8" loc="(680,465)" name="Text">
+      <a name="font" val="SansSerif bold 12"/>
+      <a name="text" val="=&gt; Ok, I'm gonna set the state of Q"/>
     </comp>
     <comp lib="8" loc="(680,710)" name="Text">
       <a name="font" val="SansSerif bold 12"/>
       <a name="text" val="There is K requested to turn off Q?"/>
     </comp>
-    <comp lib="8" loc="(681,465)" name="Text">
-      <a name="font" val="SansSerif bold 12"/>
-      <a name="text" val="=&gt; Ok, I'm gonna set the state of Q"/>
-    </comp>
-    <comp lib="8" loc="(687,725)" name="Text">
+    <comp lib="8" loc="(685,725)" name="Text">
       <a name="font" val="SansSerif bold 12"/>
       <a name="text" val="=&gt; Ok, I'm gonna reset the state of Q"/>
     </comp>
@@ -240,19 +240,19 @@
       <a name="font" val="SansSerif bold 9"/>
       <a name="text" val="Press here to reset for testing"/>
     </comp>
-    <comp lib="8" loc="(730,124)" name="Text">
+    <comp lib="8" loc="(728,120)" name="Text">
       <a name="font" val="SansSerif bold 12"/>
       <a name="text" val="S (Set override): force to turn on Q, regardless J and K"/>
     </comp>
-    <comp lib="8" loc="(737,139)" name="Text">
+    <comp lib="8" loc="(735,135)" name="Text">
       <a name="font" val="SansSerif bold 12"/>
       <a name="text" val="R (Reset override): force to turn off Q, regardless J and K"/>
     </comp>
-    <comp lib="8" loc="(780,505)" name="Text">
-      <a name="text" val="Unset State"/>
-    </comp>
-    <comp lib="8" loc="(781,252)" name="Text">
+    <comp lib="8" loc="(780,250)" name="Text">
       <a name="text" val="Set State"/>
+    </comp>
+    <comp lib="8" loc="(780,505)" name="Text">
+      <a name="text" val="Reset State"/>
     </comp>
     <comp lib="8" loc="(895,275)" name="Text">
       <a name="text" val="Q"/>
