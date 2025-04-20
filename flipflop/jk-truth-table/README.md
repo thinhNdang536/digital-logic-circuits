@@ -58,6 +58,11 @@ A clear visual representation and explanation of how the **JK Flip-Flop** works,
 
 ---
 
+## 📁 File
+- `.circ` = editable in Logisim
+
+---
+
 ## 🗂 Resources
 
 - [Wikipedia: JK Flip-Flop](https://en.wikipedia.org/wiki/Flip-flop_(electronics)#JK_flip-flop)
