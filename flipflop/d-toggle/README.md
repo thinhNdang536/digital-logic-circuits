@@ -6,7 +6,7 @@
 
 ## 🔁 Logic
 - `Button` = one-time clock pulse.
-- `Qi` (Q-inverse) feeds back into `D` to create toggling effect.
+- `Qi` (Q-inverse) feeds back into `D Flip-flop` to create toggling effect.
 
 ## 🖼 Preview
 ![Circuit Diagram](./d_flipflop_toggle.png)
