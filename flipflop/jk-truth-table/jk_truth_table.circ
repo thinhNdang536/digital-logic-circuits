@@ -62,8 +62,8 @@
     <comp lib="0" loc="(210,310)" name="Constant">
       <a name="value" val="0x0"/>
     </comp>
-    <comp lib="0" loc="(210,510)" name="Constant"/>
-    <comp lib="0" loc="(210,560)" name="Constant"/>
+    <comp lib="0" loc="(210,520)" name="Constant"/>
+    <comp lib="0" loc="(210,570)" name="Constant"/>
     <comp lib="0" loc="(630,260)" name="Constant"/>
     <comp lib="0" loc="(630,310)" name="Constant">
       <a name="value" val="0x0"/>
@@ -75,7 +75,7 @@
     <comp lib="4" loc="(340,280)" name="J-K Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="4" loc="(340,530)" name="J-K Flip-Flop">
+    <comp lib="4" loc="(340,540)" name="J-K Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
     <comp lib="4" loc="(760,280)" name="J-K Flip-Flop">
@@ -85,11 +85,11 @@
       <a name="appearance" val="logisim_evolution"/>
     </comp>
     <comp lib="5" loc="(210,360)" name="Button"/>
-    <comp lib="5" loc="(210,610)" name="Button"/>
+    <comp lib="5" loc="(210,620)" name="Button"/>
     <comp lib="5" loc="(470,290)" name="LED"/>
     <comp lib="5" loc="(470,330)" name="LED"/>
-    <comp lib="5" loc="(470,540)" name="LED"/>
-    <comp lib="5" loc="(470,580)" name="LED"/>
+    <comp lib="5" loc="(470,550)" name="LED"/>
+    <comp lib="5" loc="(470,590)" name="LED"/>
     <comp lib="5" loc="(630,360)" name="Button"/>
     <comp lib="5" loc="(630,410)" name="Button"/>
     <comp lib="5" loc="(630,530)" name="Button"/>
@@ -101,89 +101,89 @@
     <comp lib="8" loc="(165,265)" name="Text">
       <a name="text" val="J"/>
     </comp>
-    <comp lib="8" loc="(165,515)" name="Text">
+    <comp lib="8" loc="(165,315)" name="Text">
+      <a name="text" val="K"/>
+    </comp>
+    <comp lib="8" loc="(165,525)" name="Text">
       <a name="text" val="J"/>
     </comp>
-    <comp lib="8" loc="(170,315)" name="Text">
+    <comp lib="8" loc="(166,575)" name="Text">
       <a name="text" val="K"/>
+    </comp>
+    <comp lib="8" loc="(170,100)" name="Text">
+      <a name="font" val="SansSerif bold 14"/>
+      <a name="text" val="Note:"/>
     </comp>
     <comp lib="8" loc="(170,365)" name="Text">
       <a name="text" val="CP"/>
     </comp>
-    <comp lib="8" loc="(170,565)" name="Text">
-      <a name="text" val="K"/>
-    </comp>
-    <comp lib="8" loc="(170,625)" name="Text">
+    <comp lib="8" loc="(170,635)" name="Text">
       <a name="text" val="CP"/>
     </comp>
-    <comp lib="8" loc="(171,104)" name="Text">
-      <a name="font" val="SansSerif bold 14"/>
-      <a name="text" val="Note:"/>
-    </comp>
-    <comp lib="8" loc="(222,201)" name="Text">
+    <comp lib="8" loc="(220,200)" name="Text">
       <a name="font" val="SansSerif bold 12"/>
       <a name="text" val="Qi: inverse of Q"/>
     </comp>
-    <comp lib="8" loc="(236,54)" name="Text">
-      <a name="font" val="SansSerif bold 14"/>
-      <a name="text" val="Author: thinhNdang0536"/>
-    </comp>
-    <comp lib="8" loc="(237,228)" name="Text">
+    <comp lib="8" loc="(235,225)" name="Text">
       <a name="font" val="SansSerif bold 14"/>
       <a name="text" val="Truth table from circuit:"/>
     </comp>
-    <comp lib="8" loc="(262,186)" name="Text">
+    <comp lib="8" loc="(235,50)" name="Text">
+      <a name="font" val="SansSerif bold 14"/>
+      <a name="text" val="Author: thinhNdang0536"/>
+    </comp>
+    <comp lib="8" loc="(260,185)" name="Text">
       <a name="font" val="SansSerif bold 12"/>
       <a name="text" val="Q: stored bit of flipflop (0 or 1)"/>
     </comp>
-    <comp lib="8" loc="(263,400)" name="Text">
+    <comp lib="8" loc="(264,447)" name="Text">
       <a name="font" val="SansSerif bold 12"/>
       <a name="text" val="Nobody requests to turn on or off Q?"/>
     </comp>
-    <comp lib="8" loc="(270,650)" name="Text">
+    <comp lib="8" loc="(275,710)" name="Text">
       <a name="font" val="SansSerif bold 12"/>
       <a name="text" val="J and K are fighting to change state of Q?"/>
     </comp>
-    <comp lib="8" loc="(293,415)" name="Text">
+    <comp lib="8" loc="(290,465)" name="Text">
       <a name="font" val="SansSerif bold 12"/>
       <a name="text" val="=&gt; Ok, I am not gonna do anything (unchange)"/>
     </comp>
-    <comp lib="8" loc="(296,74)" name="Text">
+    <comp lib="8" loc="(295,70)" name="Text">
       <a name="font" val="SansSerif bold 14"/>
       <a name="text" val="Github: https://github.com/thinhNdang536"/>
     </comp>
-    <comp lib="8" loc="(316,154)" name="Text">
+    <comp lib="8" loc="(315,150)" name="Text">
       <a name="font" val="SansSerif bold 12"/>
       <a name="text" val="CP (Clock Pulse): request to update flipflop state"/>
     </comp>
-    <comp lib="8" loc="(320,665)" name="Text">
-      <a name="font" val="SansSerif bold 12"/>
-      <a name="text" val="=&gt; Ok, I'm gonna change state respectively for fair (toggle)"/>
-    </comp>
-    <comp lib="8" loc="(321,124)" name="Text">
+    <comp lib="8" loc="(320,120)" name="Text">
       <a name="font" val="SansSerif bold 12"/>
       <a name="text" val="J (Jump/Set): request to turn on Q on clock pulse "/>
     </comp>
-    <comp lib="8" loc="(321,139)" name="Text">
+    <comp lib="8" loc="(320,135)" name="Text">
       <a name="font" val="SansSerif bold 12"/>
       <a name="text" val="K (Kill/Reset): request to turn off Q on clock pulse "/>
+    </comp>
+    <comp lib="8" loc="(325,725)" name="Text">
+      <a name="font" val="SansSerif bold 12"/>
+      <a name="text" val="=&gt; Ok, I'm gonna change state respectively for fair (toggle)"/>
     </comp>
     <comp lib="8" loc="(355,250)" name="Text">
       <a name="text" val="Unchange State"/>
     </comp>
-    <comp lib="8" loc="(355,500)" name="Text">
+    <comp lib="8" loc="(355,505)" name="Text">
       <a name="text" val="Toggle State"/>
     </comp>
     <comp lib="8" loc="(475,275)" name="Text">
       <a name="text" val="Q"/>
     </comp>
-    <comp lib="8" loc="(475,525)" name="Text">
+    <comp lib="8" loc="(475,535)" name="Text">
       <a name="text" val="Q"/>
     </comp>
     <comp lib="8" loc="(480,355)" name="Text">
       <a name="text" val="Qi"/>
     </comp>
-    <comp lib="8" loc="(480,605)" name="Text">
+    <comp lib="8" loc="(480,615)" name="Text">
       <a name="text" val="Qi"/>
     </comp>
     <comp lib="8" loc="(540,30)" name="Text">
@@ -208,15 +208,19 @@
     <comp lib="8" loc="(590,675)" name="Text">
       <a name="text" val="CP"/>
     </comp>
-    <comp lib="8" loc="(671,455)" name="Text">
+    <comp lib="8" loc="(679,449)" name="Text">
+      <a name="font" val="SansSerif bold 12"/>
+      <a name="text" val="There is J requested to turn on Q?"/>
+    </comp>
+    <comp lib="8" loc="(680,710)" name="Text">
+      <a name="font" val="SansSerif bold 12"/>
+      <a name="text" val="There is K requested to turn off Q?"/>
+    </comp>
+    <comp lib="8" loc="(681,465)" name="Text">
       <a name="font" val="SansSerif bold 12"/>
       <a name="text" val="=&gt; Ok, I'm gonna set the state of Q"/>
     </comp>
-    <comp lib="8" loc="(686,441)" name="Text">
-      <a name="font" val="SansSerif bold 12"/>
-      <a name="text" val="There is J requested to turn on or off Q?"/>
-    </comp>
-    <comp lib="8" loc="(689,726)" name="Text">
+    <comp lib="8" loc="(687,725)" name="Text">
       <a name="font" val="SansSerif bold 12"/>
       <a name="text" val="=&gt; Ok, I'm gonna reset the state of Q"/>
     </comp>
@@ -236,23 +240,19 @@
       <a name="font" val="SansSerif bold 9"/>
       <a name="text" val="Press here to reset for testing"/>
     </comp>
-    <comp lib="8" loc="(700,710)" name="Text">
+    <comp lib="8" loc="(730,124)" name="Text">
       <a name="font" val="SansSerif bold 12"/>
-      <a name="text" val="There is K requested to turn on or off Q?"/>
+      <a name="text" val="S (Set override): force to turn on Q, regardless J and K"/>
     </comp>
-    <comp lib="8" loc="(702,126)" name="Text">
+    <comp lib="8" loc="(737,139)" name="Text">
       <a name="font" val="SansSerif bold 12"/>
-      <a name="text" val="S: force to turn on Q, regardless J and K"/>
-    </comp>
-    <comp lib="8" loc="(702,141)" name="Text">
-      <a name="font" val="SansSerif bold 12"/>
-      <a name="text" val="R: force to turn off Q, regardless J and K"/>
-    </comp>
-    <comp lib="8" loc="(770,250)" name="Text">
-      <a name="text" val="Set State"/>
+      <a name="text" val="R (Reset override): force to turn off Q, regardless J and K"/>
     </comp>
     <comp lib="8" loc="(780,505)" name="Text">
       <a name="text" val="Unset State"/>
+    </comp>
+    <comp lib="8" loc="(781,252)" name="Text">
+      <a name="text" val="Set State"/>
     </comp>
     <comp lib="8" loc="(895,275)" name="Text">
       <a name="text" val="Q"/>
@@ -266,28 +266,28 @@
     <comp lib="8" loc="(900,665)" name="Text">
       <a name="text" val="Qi"/>
     </comp>
-    <wire from="(160,470)" to="(550,470)"/>
+    <wire from="(160,480)" to="(550,480)"/>
     <wire from="(210,260)" to="(280,260)"/>
     <wire from="(210,310)" to="(330,310)"/>
     <wire from="(210,360)" to="(280,360)"/>
-    <wire from="(210,510)" to="(280,510)"/>
-    <wire from="(210,560)" to="(330,560)"/>
-    <wire from="(210,610)" to="(280,610)"/>
+    <wire from="(210,520)" to="(280,520)"/>
+    <wire from="(210,570)" to="(330,570)"/>
+    <wire from="(210,620)" to="(280,620)"/>
     <wire from="(280,260)" to="(280,290)"/>
     <wire from="(280,290)" to="(330,290)"/>
     <wire from="(280,330)" to="(280,360)"/>
     <wire from="(280,330)" to="(330,330)"/>
-    <wire from="(280,510)" to="(280,540)"/>
-    <wire from="(280,540)" to="(330,540)"/>
-    <wire from="(280,580)" to="(280,610)"/>
-    <wire from="(280,580)" to="(330,580)"/>
+    <wire from="(280,520)" to="(280,550)"/>
+    <wire from="(280,550)" to="(330,550)"/>
+    <wire from="(280,590)" to="(280,620)"/>
+    <wire from="(280,590)" to="(330,590)"/>
     <wire from="(390,290)" to="(470,290)"/>
     <wire from="(390,330)" to="(470,330)"/>
-    <wire from="(390,540)" to="(470,540)"/>
-    <wire from="(390,580)" to="(470,580)"/>
-    <wire from="(550,230)" to="(550,470)"/>
-    <wire from="(550,470)" to="(550,730)"/>
-    <wire from="(550,470)" to="(930,470)"/>
+    <wire from="(390,550)" to="(470,550)"/>
+    <wire from="(390,590)" to="(470,590)"/>
+    <wire from="(550,230)" to="(550,480)"/>
+    <wire from="(550,480)" to="(550,730)"/>
+    <wire from="(550,480)" to="(930,480)"/>
     <wire from="(630,260)" to="(700,260)"/>
     <wire from="(630,310)" to="(750,310)"/>
     <wire from="(630,360)" to="(700,360)"/>
