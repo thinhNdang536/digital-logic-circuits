@@ -42,7 +42,7 @@ A clear visual representation and explanation of how the **JK Flip-Flop** works,
 
 ---
 
-## 🤔 How does JK Flip-flop actually works (short & easy)
+## 🤔 How does it actually works (short & easy)
 
 - JK Flip-Flop behaves like RS in most cases: no change, set, and reset ✅
 - But unlike RS, when J = 1 and K = 1, it toggles the output instead of going into an error 🚫
@@ -51,7 +51,7 @@ A clear visual representation and explanation of how the **JK Flip-Flop** works,
 
 ---
 
-## 📌 Where is JK Flip-flop mostly used?
+## 📌 Where is it mostly used?
 
 - Bit counters such as digital watch circuit.
 - **Why**: It can reliably store bit, which is perfect for making binary counting straightforward 👀😎
