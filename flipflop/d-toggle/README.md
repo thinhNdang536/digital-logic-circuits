@@ -53,6 +53,8 @@ Toggle a D Flip-Flop on button click using its inverse output as input. Demonstr
 
 ## 📌 Where is it mostly used?
 
+-   **To create a T (Toggle) Flip-Flop from a D Flip-Flop.**
+-   **An alternation for the toggle state of a JK Flipflop.**
 -   As a fundamental component in binary counters (e.g., ripple counters).
 -   In frequency division circuits, where the output frequency is half of the input clock frequency.
 -   Anywhere a simple "on/off" or "flip-flop" action is needed based on a single input pulse.
@@ -78,7 +80,7 @@ Toggle a D Flip-Flop on button click using its inverse output as input. Demonstr
 
 ## 📁 File
 
--   `.circ` = editable in Logisim (assuming you'll include this file)
+-   `.circ` = editable in Logisim
 
 ---
 
